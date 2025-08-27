@@ -8,7 +8,7 @@ The RIL is managed and governed by the Rust Foundation and its Board of Director
 
 The Rust Foundation will provide on-boarding support, financial and legal support, promotional and infrastructure support, to RIL projects, in line with the needs and desires of each project.
 
-**TODO add link to the landing page on the Foundation website when published:** [Read more.]()
+[Read more.](https://rustfoundation.org/rust-innovation-lab/)
 
 ## How can my project join the Rust Innovation Lab?
 
