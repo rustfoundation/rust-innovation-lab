@@ -1,6 +1,6 @@
 # Rust Innovation Lab's Project Funding Policy
 
-Currently, we can only accept projects into the Rust Innovation Lab if they have their own sources of funding. The Rust Foundation will not provide direct financial support to RIL hosted projects from its core funds.
+Currently, we can only accept projects into the Rust Innovation Lab if they have their own sources of funding and can sustain their own funding requirements. The Rust Foundation will not provide direct financial support to RIL hosted projects from its core funds.
 
 The Rust Foundation will manage and disperse funding to Rust Innovation Lab projects in line with the funding agreements made with individual/organizational donors. Donors are able to specify which project(s) they wish to fund and at what amount, or may opt to fund the RIL as a whole, in which case, we will allocate the funds according to the overall priorities of the Rust Foundation and Rust Project.
 
