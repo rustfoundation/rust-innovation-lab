@@ -40,6 +40,8 @@ The Rust Foundation will provide on-boarding support, financial and legal suppor
 
 Please read our [eligibility requirements](eligibility-requirements.md) to determine if the Rust Innovation Lab will be the right choice for hosting your project.
 
+If you’ve read all the information there, you believe you meet the eligibility requirements, and you think the Rust Innovation Lab and your project would make a good match, then **please fill out the [application](https://github.com/rustfoundation/rust-innovation-lab/issues/new?template=ril-membership-application.yml)** and/or send us a message at [ril@rustfoundation.org](mailto:ril@rustfoundation.org) to start a conversation.
+
 ## More Questions?
 
 Check out our [FAQ](FAQ.md) for answers to other questions.
