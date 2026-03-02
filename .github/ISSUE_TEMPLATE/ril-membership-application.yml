@@ -27,9 +27,14 @@ body:
         [eligibility requirements](https://github.com/rustfoundation/rust-innovation-lab/blob/main/eligibility-requirements.md)
         and then fill out the form below.
 
+        *For questions you wish to discuss in a more private conversation, please
+        specify "Discuss over email" in the text box.*
+
         > Note that the names, email addresses, and any companies you provide
         will be public since GitHub issues are public. We do not use your
-        information for any reason other than for membership purposes.
+        information for any reason other than for membership purposes. **If you
+        wish to provide your application manually in a more private document,
+        please send an email to ril at rustfoundation dot org.**
   - type: markdown
     attributes:
       value: |
@@ -166,12 +171,14 @@ body:
     id: project-funding
     attributes:
       label: >
-        Is your project funded (or do you expect it to be funded in the
-        near future)?
+        Is your project funded, do you expect it to be funded in the
+        near future, or can you sustain your own funding requirements?
       description: >
-        It is currently an RIL eligibility requirement that a project be funded. We will ask privately via email for further details as we review 
-        your application, including the name(s) of funders, the amounts 
-        involved, any restrictions or conditions on the funds, and any 
+        It is currently an RIL eligibility requirement that a project
+        be funded or sustain its own funding requirements. We will ask
+        privately via email for further details as we review your
+        application, including the name(s) of funders, the amounts
+        involved, any restrictions or conditions on the funds, and any
         requirements around reporting expenditure back to the funder.
       options:
         - 'Yes'
