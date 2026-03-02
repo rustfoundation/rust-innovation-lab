@@ -58,4 +58,4 @@ At present, the Rust Foundation can only accept projects that are able to sustai
 
 ### Contact
 
-If you’ve read all the information here and you think the Rust Innovation Lab and your project would make a good match, then send us a message at [contact@rustfoundation.org](mailto:contact@rustfoundation.org) to start a conversation.
+If you’ve read all the information here and you think the Rust Innovation Lab and your project would make a good match, then send us a message at [ril@rustfoundation.org](mailto:ril@rustfoundation.org) to start a conversation.
