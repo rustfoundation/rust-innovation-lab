@@ -58,4 +58,4 @@ At present, the Rust Foundation can only accept projects that are able to sustai
 
 ### Contact
 
-If you’ve read all the information here and you think the Rust Innovation Lab and your project would make a good match, then send us a message at [ril@rustfoundation.org](mailto:ril@rustfoundation.org) to start a conversation.
+If you’ve read all the information there, you believe you meet the eligibility requirements, and you think the Rust Innovation Lab and your project would make a good match, then **please fill out the [application](https://github.com/rustfoundation/rust-innovation-lab/issues/new?template=ril-membership-application.yml)** and/or send us a message at [ril@rustfoundation.org](mailto:ril@rustfoundation.org) to start a conversation.
