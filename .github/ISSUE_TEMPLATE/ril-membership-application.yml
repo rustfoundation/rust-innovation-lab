@@ -34,7 +34,7 @@ body:
         will be public since GitHub issues are public. We do not use your
         information for any reason other than for membership purposes. **If you
         wish to provide your application manually in a more private document,
-        please send an email to ril at rustfoundation dot org.**
+        please send an email to [ril@rustfoundation.org](mailto:ril@rustfoundation.org).**
   - type: markdown
     attributes:
       value: |
