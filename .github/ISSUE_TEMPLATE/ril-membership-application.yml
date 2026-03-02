@@ -1,0 +1,432 @@
+---
+name: Rust Innovation Lab Membership Application
+description: >
+  Application for a project to become part of the Rust Innovation Lab
+  (RIL)
+title: RIL Membership Application for [INSERT PROJECT NAME HERE]
+labels: ["ril membership application"]
+assignees:
+  - JoelMarcey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The [Rust Innovation Lab](https://github.com/rustfoundation/rust-innovation-lab)
+        was [announced](https://rustfoundation.org/media/rust-foundation-launches-rust-innovation-lab-with-rustls-as-inaugural-project/)
+        in September 2025 with a goal to offer relevant and well-funded
+        open source projects the opportunity to receive fiscal sponsorship
+        from the Rust Foundation, including governance, legal, networking,
+        marketing, and administrative support
+
+        Membership into the RIL requires an application to be submitted and
+        reviewed by the Rust Foundation and final approval by the Rust
+        Foundation Board of Directors.
+
+        This is the RIL application. If you are interested in applying for
+        RIL membership for your project, please make sure you meet the
+        [eligibility requirements](https://github.com/rustfoundation/rust-innovation-lab/blob/main/eligibility-requirements.md)
+        and then fill out the form below.
+
+        > Note that the names, email addresses, and any companies you provide
+        will be public since GitHub issues are public. We do not use your
+        information for any reason other than for membership purposes.
+  - type: markdown
+    attributes:
+      value: |
+        # Rust Innovation Lab Membership Application
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 1: About the project and about you
+  - type: textarea
+    id: about-project
+    attributes:
+      label: >
+        Give us the project's elevator pitch! What does it do? What are its
+        aims/goals? How will being part of the Rust Innovation Lab help
+        achieve that?
+    validations:
+      required: true
+  - type: textarea
+    id: project-people
+    attributes:
+      label: >
+        Who are the project's key personnel? List their names and contact
+        info (one person per line).
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 2: Governance
+  - type: dropdown
+    id: governing-document
+    attributes:
+      label: Do you have a governing document?
+      description: >
+        You might call this a charter, constitution, bylaws, or something
+        else.
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        *You will hopefully be able to complete the rest of this section by
+        referring to the relevant part of your governing document - it
+        should address all of these topics. If you don't have one, or will
+        need to add supplementary wording to an existing one, we can help
+        you draft something suitable. Use this section to tell us more
+        about how you currently operate.*
+  - type: textarea
+    id: project-involvement
+    attributes:
+      label: Who is involved in the project?
+      description: >
+        We tend to use the term 'members' to describe these people. You
+        might call them participants, contributors, or something else.
+    validations:
+      required: true
+  - type: textarea
+    id: project-lead
+    attributes:
+      label: Who is in charge of the project?
+      description: >
+        We tend to use the term 'leadership' to describe these people. They
+        are the ones with decision-making power over the project's
+        direction. You might call them a Board.
+    validations:
+      required: true
+  - type: textarea
+    id: leadership-appointments
+    attributes:
+      label: What is the process for appointing/removing leadership?
+    validations:
+      required: true
+  - type: textarea
+    id: running-project
+    attributes:
+      label: Give an outline description of how leadership runs the project.
+      description: >
+        How do ideas get turned into proposals for decision-making? Do you
+        vote on decisions, or reach consensus in some other way? Are there
+        leadership meetings? How often?
+    validations:
+      required: true
+  - type: textarea
+    id: project-sustainability
+    attributes:
+      label: >
+        What will happen if the project is no longer sustainable and needs
+        to be wound down?
+    validations:
+      required: true
+  - type: dropdown
+    id: code-of-conduct
+    attributes:
+      label: Do you have a Code of Conduct?
+      description: >
+        We require all our projects to have a Code of Conduct. If you don't
+        have one already you can agree to adopt the Rust Foundation's CoC.
+        If you want to bring your own, that's fine, but we stipulate that
+        it must cover i) a definition of unacceptable behavior that is at
+        least as strict as that in the RF CoC; ii) how to make a
+        complaint; iii) how the complaint will be handled, including any
+        sanctions that you apply to violators.
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: code-of-conduct-url
+    attributes:
+      label: >
+        If you have a Code of Conduct, please provide a URL where we can
+        read it.
+    validations:
+      required: false
+  - type: textarea
+    id: project-management-support
+    attributes:
+      label: >
+        What level of project management/support do you envisage your
+        project requiring from the Foundation?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 3: Financial
+  - type: dropdown
+    id: project-funding
+    attributes:
+      label: >
+        Is your project funded (or do you expect it to be funded in the
+        near future)?
+      description: >
+        It is currently an RIL eligibility requirement that a project be funded. We will ask privately via email for further details as we review 
+        your application, including the name(s) of funders, the amounts 
+        involved, any restrictions or conditions on the funds, and any 
+        requirements around reporting expenditure back to the funder.
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: money-management
+    attributes:
+      label: >
+        If you have funding already, describe how you currently manage the
+        money.
+      description: >
+        Are the funds held by an individual or an institution on the
+        project's behalf, or does the project have its own bank account?
+        Who makes decisions about how the money is spent? Who has the
+        day-to-day responsibility and ability to make payments?
+    validations:
+      required: false
+  - type: dropdown
+    id: budget
+    attributes:
+      label: Do you have a budget?
+      description: >
+        If you have a budget, you may be asked for a copy of that budget as
+        we review the application
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 4: Trademark and Branding
+  - type: textarea
+    id: trademarks
+    attributes:
+      label: >
+        Please list and describe any trademarks you already have, and what
+        territories they are trademarked in.
+    validations:
+      required: true
+  - type: textarea
+    id: future-trademarks
+    attributes:
+      label: >
+        Please list and describe anything you'd like to trademark in
+        future, and what territories you want to apply for the trademark
+        in.
+    validations:
+      required: true
+  - type: textarea
+    id: branding-assets
+    attributes:
+      label: What branding assets do you already have, if any?
+      description: Logo files, fonts, a color palette, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: brand-usage-framework
+    attributes:
+      label: >
+        Do you already have a framework for the usage of your trademark(s)
+        and branding asset(s)? Please briefly describe here, and attach any
+        relevant documents.
+      description: >
+        For example, a trademark policy, a style guide or branding
+        guidelines.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 5: Infrastructure
+  - type: dropdown
+    id: project-website
+    attributes:
+      label: Does your project have a website?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: project-code
+    attributes:
+      label: Does your project have code repositories?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: project-mailing-list
+    attributes:
+      label: Does your project have a mailing list?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: project-forums
+    attributes:
+      label: Does your project have forums?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: project-chat-platforms
+    attributes:
+      label: Does your project have any chat platforms?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: project-collaboration-spaces
+    attributes:
+      label: Does your project have any other collaboration spaces?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: infrastructure-information
+    attributes:
+      label: >
+        If you answered "Yes" to any of the above infrastructure
+        questions, please provide URLs and any relevant access information
+        here.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 6: Licensing and Data
+
+        Click [here](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
+        for more information on Contributor License Agreements (CLAs)
+
+        Click [here](https://en.wikipedia.org/wiki/Personal_data) for more
+        information on Personally Identifiable Information (PII)
+  - type: dropdown
+    id: project-license
+    attributes:
+      label: Is the project's work made available under an open license?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: project-license-list
+    attributes:
+      label: >
+        If your project is under an open source license, which license(s)
+        is it?
+    validations:
+      required: false
+  - type: dropdown
+    id: project-cla
+    attributes:
+      label: Do you operate a Contributor License Agreement (CLA) system?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: project-cla-details
+    attributes:
+      label: Describe your CLA answer
+      description: >
+        If you answered "yes", please summarize the process and the
+        license conditions below, and attach a copy of the full license. If
+        "no", how will you ensure the Rust Foundation is able to
+        use/distribute the intellectual property contained within your
+        project?
+    validations:
+      required: true
+  - type: dropdown
+    id: project-pii
+    attributes:
+      label: >
+        Does your project collect or store Personally Identifiable
+        Information (PII)?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: project-pii-details
+    attributes:
+      label: Collecting PII
+      description: >
+        If you answered "yes" on PII, please describe the types of personal
+        data you collect, your reasons for collecting it, and the retention
+        period for the data. Have you done a Data Protection Impact
+        Assessment (or similar)?
+    validations:
+      required: false
+  - type: dropdown
+    id: project-privacy-policy
+    attributes:
+      label: Do you have a privacy policy?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: privacy-policy-url
+    attributes:
+      label: >
+        If you have a Privacy Policy, please provide a URL where we can
+        read it.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Section 7: Information Checklist
+  - type: checkboxes
+    id: information-checklist
+    attributes:
+      label: >
+        Please check the box for each document you provided a URL for, or
+        indicated you will provide to us.
+      options:
+        - label: Governing Document
+          required: false
+        - label: Code of Conduct
+          required: false
+        - label: Guidelines for trademark and/or branding usage
+          required: false
+        - label: Contributor License Agreement (CLA)
+          required: false
+        - label: Privacy Policy
+          required: false
