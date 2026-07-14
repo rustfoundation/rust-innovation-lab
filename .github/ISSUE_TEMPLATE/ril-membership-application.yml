@@ -172,11 +172,14 @@ body:
     attributes:
       label: >
         Is your project funded, do you expect it to be funded in the
-        near future, or can you sustain your own funding requirements?
+        near future, or can you sustain your own funding requirements (even
+        if you funding requirements are $0)?
       description: >
         It is currently an RIL eligibility requirement that a project
-        be funded or sustain its own funding requirements. We will ask
-        privately via email for further details as we review your
+        be funded or sustain its own funding requirements. If your project
+        does not require any funding, and will not require any funding as
+        part of the RIL, that is ok and you can answer 'yes' here.
+        We will ask privately via email for further details as we review your
         application, including the name(s) of funders, the amounts
         involved, any restrictions or conditions on the funds, and any
         requirements around reporting expenditure back to the funder.
@@ -191,7 +194,8 @@ body:
     attributes:
       label: >
         If you have funding already, describe how you currently manage the
-        money.
+        money. If there is no money to manage because it is not required, 
+        say so here and then say "No" to a budget below.
       description: >
         Are the funds held by an individual or an institution on the
         project's behalf, or does the project have its own bank account?
@@ -205,7 +209,7 @@ body:
       label: Do you have a budget?
       description: >
         If you have a budget, you may be asked for a copy of that budget as
-        we review the application
+        we review the application.
       options:
         - 'Yes'
         - 'No'
