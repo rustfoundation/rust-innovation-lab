@@ -6,7 +6,7 @@ description: >
 title: RIL Membership Application for [INSERT PROJECT NAME HERE]
 labels: ["ril membership application"]
 assignees:
-  - JoelMarcey
+  - davidtwco
 body:
   - type: markdown
     attributes:
